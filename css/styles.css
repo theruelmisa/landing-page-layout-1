@@ -7,7 +7,7 @@
 	align-items: center;
 	justify-content: space-between;
 	height: 8rem;
-	padding: 1rem;
+	padding: 2rem;
 	margin-bottom: 2rem;
 }
 
@@ -47,4 +47,48 @@
 
 .header__nav-item:hover {
 	color: var(--dark-color-text);
+}
+
+.header__account-actions {
+	padding: 1rem 2rem;
+}
+
+.header__btn {
+	cursor: pointer;
+	padding: 1rem 2rem;
+	border: none;
+	border-radius: 2rem;
+	font-size: 1.4rem;
+	font-weight: 500;
+	transition: all 0.5s ease;
+}
+
+.header__btn:first-of-type {
+	margin-right: 1rem;
+}
+
+.header__btn:focus {
+	outline: none;
+}
+
+.signup-btn {
+	background-color: var(--blackbg);
+	color: var(--light-color-text);
+}
+
+.signup-btn:hover {
+	background-color: var(--light-color-text);
+	color: var(--black-text);
+}
+
+.login-btn {
+	border: 2px solid var(--blackbg);
+	background-color: inherit;
+	color: inherit;
+}
+
+.login-btn:hover {
+	border-color: transparent;
+	background-color: var(--blackbg);
+	color: var(--light-color-text);
 }
