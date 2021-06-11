@@ -8,7 +8,7 @@
 	justify-content: space-between;
 	height: 8rem;
 	padding: 2rem;
-	margin-bottom: 8rem;
+	margin-bottom: 5rem;
 }
 
 .header__logo-box {
@@ -59,8 +59,7 @@
 	border: none;
 	border-radius: 2rem;
 	font-size: 1.4rem;
-	font-weight: 500;
-	transition: all 0.5s ease;
+	transition: all 0.3s ease;
 }
 
 .header__btn:first-of-type {
@@ -93,18 +92,83 @@
 	color: var(--light-color-text);
 }
 
-/* MAIN CONTENT */
+/* HERO */
 
 .hero {
 	height: 90vh;
-	padding: 2.5rem;
-	margin-bottom: 2rem;
+	padding: 2rem 3rem;
+	margin-bottom: 5rem;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 }
 
-.hero__img {
+.hero__group {
+	align-self: center;
+	justify-self: center;
+	padding: 3rem 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 50vh;
+	/* background-color: var(--greybg); */
+}
+
+.hero__title {
+	font-size: 5rem;
+	font-weight: 300;
+	letter-spacing: 3px;
+	margin-bottom: 1rem;
+}
+
+.hero__subtitle {
+	font-size: 2.8rem;
+	font-weight: 400;
+	letter-spacing: 2px;
+	margin-bottom: 5rem;
+}
+
+.hero__cta {
+	height: 30vh;
+}
+
+.hero__cta > p {
+	font-size: 1.6rem;
+	margin-bottom: 2rem;
+}
+
+.hero__cta-group {
 	display: flex;
 	align-items: center;
+}
+
+.hero__cta-input {
+	padding: 1rem;
+	margin-right: 1rem;
+	border: 2px solid var(--black-text);
+	border-radius: 5px;
+	background-color: inherit;
+	caret-color: var(--dark-color-text);
+	color: var(--dark-color-text);
+}
+
+.hero__cta-btn {
+	cursor: pointer;
+	align-self: stretch;
+	padding: 0 2rem;
+	font-size: 1.4rem;
+	border: none;
+	border-radius: 5rem;
+	background-color: var(--blackbg);
+	color: var(--light-color-text);
+	transition: all 0.3s ease-in-out;
+}
+
+.hero__cta-btn:hover {
+	background-color: var(--light-color-text);
+	color: var(--black-text);
+}
+
+.hero__img-container {
+	display: flex;
 	justify-content: center;
 }
