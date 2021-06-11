@@ -8,7 +8,7 @@
 	justify-content: space-between;
 	height: 8rem;
 	padding: 2rem;
-	margin-bottom: 2rem;
+	margin-bottom: 8rem;
 }
 
 .header__logo-box {
@@ -91,4 +91,20 @@
 	border-color: transparent;
 	background-color: var(--blackbg);
 	color: var(--light-color-text);
+}
+
+/* MAIN CONTENT */
+
+.hero {
+	height: 90vh;
+	padding: 2.5rem;
+	margin-bottom: 2rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.hero__img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
