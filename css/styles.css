@@ -56,8 +56,7 @@
 .header__btn {
 	cursor: pointer;
 	padding: 1rem 2rem;
-	border: none;
-	border-radius: 2rem;
+	border: 2px solid transparent;
 	font-size: 1.4rem;
 	transition: all 0.3s ease;
 }
@@ -81,7 +80,7 @@
 }
 
 .login-btn {
-	border: 2px solid var(--blackbg);
+	border-color: var(--blackbg);
 	background-color: inherit;
 	color: inherit;
 }
@@ -144,9 +143,9 @@
 .hero__cta-input {
 	padding: 1rem;
 	margin-right: 1rem;
-	border: 2px solid var(--black-text);
-	border-radius: 5px;
-	background-color: inherit;
+	flex-grow: 1;
+	border: none;
+	background-color: var(--white-text);
 	caret-color: var(--dark-color-text);
 	color: var(--dark-color-text);
 }
@@ -157,7 +156,6 @@
 	padding: 0 2rem;
 	font-size: 1.4rem;
 	border: none;
-	border-radius: 5rem;
 	background-color: var(--blackbg);
 	color: var(--light-color-text);
 	transition: all 0.3s ease-in-out;
@@ -172,3 +170,5 @@
 	display: flex;
 	justify-content: center;
 }
+
+/* FEATURES */
