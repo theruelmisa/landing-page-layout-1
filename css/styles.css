@@ -8,7 +8,7 @@
 	justify-content: space-between;
 	height: 8rem;
 	padding: 2rem;
-	margin-bottom: 5rem;
+	margin-bottom: 3rem;
 }
 
 .header__logo-box {
@@ -96,7 +96,7 @@
 .hero {
 	height: 90vh;
 	padding: 2rem 3rem;
-	margin-bottom: 5rem;
+	margin-bottom: 3rem;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 }
@@ -159,6 +159,7 @@
 	background-color: var(--blackbg);
 	color: var(--light-color-text);
 	transition: all 0.3s ease-in-out;
+	/* box-shadow: 10px 10px 0px var(--light-color-text); */
 }
 
 .hero__cta-btn:hover {
@@ -172,3 +173,49 @@
 }
 
 /* FEATURES */
+
+.features {
+	padding: 5rem;
+	margin-bottom: 3rem;
+}
+
+.section-title {
+	font-size: 2.5rem;
+	letter-spacing: 0.25rem;
+	margin-bottom: 3rem;
+}
+
+.features .section-title {
+	text-align: center;
+}
+
+.features__group {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.features__card {
+	padding: 3rem;
+	background-color: var(--white-text);
+	box-shadow: 10px 10px 0px var(--black-text);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.features__card:not(:last-of-type) {
+	margin-right: 2rem;
+}
+
+.features__card-icon {
+	font-size: 3.5rem;
+	margin-bottom: 2rem;
+}
+
+.features__card-text {
+	font-size: 1.5rem;
+	text-align: center;
+	padding: 1rem;
+	border: 1px solid red;
+}
