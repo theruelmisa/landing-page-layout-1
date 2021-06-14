@@ -175,8 +175,8 @@
 /* FEATURES */
 
 .features {
-	padding: 5rem;
-	margin-bottom: 3rem;
+	padding: 5rem 5rem 10rem;
+	background-color: var(--white-text);
 }
 
 .section-title {
@@ -185,46 +185,42 @@
 	margin-bottom: 5rem;
 }
 
-.features .section-title {
-	text-align: center;
-}
-
 .features__group {
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
-	width: 70%;
-	margin: 0 auto;
 }
 
-.features__card {
+.features__item {
 	padding: 2rem;
-	background-color: var(--white-text);
-	box-shadow: 10px 10px 0px var(--black-text);
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	width: 30rem;
 }
 
-.features__card:not(:last-of-type) {
+.features__item:not(:last-of-type) {
 	margin-right: 3rem;
 }
 
-.features__card-icon {
+.features__item-icon {
 	font-size: 3.5rem;
 	margin-bottom: 2rem;
 }
 
-.features__card-title {
+.features__item-title {
 	margin-bottom: 2rem;
 	font-size: 1.8rem;
 	width: 100%;
 }
 
-.features__card-text {
+.features__item-text {
 	font-size: 1.5rem;
-	padding: 1rem;
 	width: 100%;
+}
+
+/* PRICING */
+
+.pricing {
+	border: 1px solid red;
+	padding: 5rem;
+}
+
+.pricing .section-title {
+	text-align: center;
 }
