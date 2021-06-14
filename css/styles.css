@@ -175,7 +175,7 @@
 /* FEATURES */
 
 .features {
-	padding: 5rem 5rem 10rem;
+	padding: 5rem 15rem 10rem;
 	background-color: var(--white-text);
 }
 
@@ -191,7 +191,7 @@
 }
 
 .features__item {
-	padding: 2rem;
+	padding: 2rem 0 2rem;
 }
 
 .features__item:not(:last-of-type) {
@@ -217,10 +217,70 @@
 /* PRICING */
 
 .pricing {
-	border: 1px solid red;
 	padding: 5rem;
+	margin-bottom: 5rem;
 }
 
 .pricing .section-title {
 	text-align: center;
+}
+
+.pricing__list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 75%;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+.pricing__card {
+	border: 1px solid red;
+	padding: 2rem;
+}
+
+.pricing__card:not(:last-of-type) {
+	margin-right: 3rem;
+}
+
+.pricing__title {
+	font-size: 2.2rem;
+	margin-bottom: 2rem;
+}
+
+/* FOOTER */
+
+.footer {
+	background-color: var(--greybg);
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+}
+
+.footer__nav-list {
+	display: flex;
+	align-items: center;
+}
+
+.footer__nav-item:not(:last-of-type) {
+	margin-right: 2rem;
+}
+
+.footer__sub-group {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 1.2rem;
+}
+
+.footer__copyright {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer__copyright-link {
+	display: inline-block;
+	margin-right: 2rem;
+	text-decoration: underline;
 }
