@@ -52,3 +52,11 @@ a:visited {
 input:focus {
 	outline: none;
 }
+
+textarea:focus {
+	outline: none;
+}
+
+button:focus {
+	outline: none;
+}

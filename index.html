@@ -14,6 +14,7 @@
     <script src="https://kit.fontawesome.com/2488d58ae7.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Header Section -->
     <header class="header">
         <div class="header__logo-box">
             <div class="header__logo">
@@ -38,6 +39,7 @@
             <button class="header__btn login-btn" type="click" >Log In</button>    
         </div>
     </header>
+    <!-- Main Content Area -->
     <main class="container">
         <div class="hero">
             <div class="hero__group">
@@ -137,31 +139,57 @@
             </div>
         </section>
         <section class="contact">
-            <h3 class="section-title">Contact</h3>
+            <div class="contact__img-container">
+                <img src="./assets/contact-img.svg" alt="contact form img" class="contact__img">
+            </div>
             <div class="contact__form-group">
+                <h2 class="section-title">Get in Touch</h3>
                 <form action="/" class="contact__form" method="POST">
                     <div class="contact__input-group">
                         <label for="" class="contact__label">Full Name</label>
-                        <input type="text" class="contact__input" required placeholder="Full Name">
+                        <input type="text" class="contact__input" required placeholder="Full Name" autocomplete="off">
                     </div>
                     <div class="contact__input-group">
                         <label for="" class="contact__label">Email</label>
-                        <input type="email" class="contact__input" required placeholder="Email">
+                        <input type="email" class="contact__input" required placeholder="Email" autocomplete="off">
                     </div>
                     <div class="contact__input-group">
                         <label for="" class="contact__label">Phone</label>
-                        <input type="text" class="contact__input" required placeholder="Phone">
+                        <input type="text" class="contact__input" required placeholder="Phone" autocomplete="off">
                     </div>
                     <div class="contact__input-group">
                         <label for="" class="contact__label">Message</label>
-                        <textarea name="message" id="" cols="30" rows="10" required placeholder="Message"></textarea>
+                        <textarea name="message" id="" cols="30" rows="5" required placeholder="Message" autocomplete="off" maxlength="250" autofocus="false"></textarea>
                     </div>
-                    <button type="submit" class="contact__button">Send</button>
+                    <button type="submit" class="contact__btn">Send</button>
                 </form>
+                <div class="hline"></div>
+                <div class="contact__info">
+                    <h3 class="contact__info-title">Contact Information</h3>
+                    <div class="contact__details">
+                        <i class="fas fa-compass"></i>
+                        <span class="contact__info-text">
+                            121 5th Ave, Suite 5B, 10003 New York, New York, United States
+                        </span>
+                    </div>
+                    <div class="contact__details">
+                        <i class="fas fa-phone"></i>
+                        <span class="contact__info-text">
+                            +1 (636) 456-1137
+                        </span>
+                    </div>
+                    <div class="contact__details">
+                        <i class="fas fa-envelope"></i>
+                        <span class="contact__info-text">
+                            sales@medusasystems.com
+                        </span>
+                    </div>
+                </div>
             </div>
-            <div class="contact__image"></div>
+            
         </section>
     </main>
+    <!-- Footer Section -->
     <footer class="footer">
         <nav class="footer__main-nav">
             <ul class="footer__nav-list">
