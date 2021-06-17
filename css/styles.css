@@ -234,14 +234,14 @@
 }
 
 .pricing__text-group {
-	margin-right: 5rem;
+	margin-right: 10rem;
 	padding: 5rem 0;
 	background-color: var(--white-text);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 40%;
-	box-shadow: 2rem 2rem 0px var(--black-text);
+	box-shadow: 2rem 2rem 0px var(--blackbg);
 }
 
 .pricing__text-group .section-title {
@@ -250,6 +250,7 @@
 	letter-spacing: 0.5rem;
 	font-weight: 400;
 	color: var(--dark-color-text);
+	margin-bottom: 3rem;
 }
 
 .pricing__text-group .section-title .emphasis {
@@ -283,13 +284,22 @@
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 2rem;
-	border: 1px solid red;
 }
 
 .pricing__list-text {
 	grid-column: 1 / -1;
+	padding: 2rem 0;
+}
 
-	border: 1px solid red;
+.pricing__list-title {
+	margin-bottom: 0.5rem;
+	font-size: 2.5rem;
+	color: var(--blackbg);
+}
+
+.pricing__list-subtitle {
+	font-size: 1.8rem;
+	color: var(--dark-color-text);
 }
 
 .pricing__card {
