@@ -191,6 +191,7 @@
 
 .features {
 	padding: 5rem 15rem 10rem;
+	margin-bottom: 5rem;
 	background-color: var(--white-text);
 }
 
@@ -303,17 +304,73 @@
 }
 
 .pricing__card {
-	border: 1px solid red;
-	padding: 2rem;
+	padding: 2rem 3rem;
+	margin-right: 2rem;
+	border: 1px solid var(--light-color-text);
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.pricing__card:not(:last-of-type) {
-	margin-right: 3rem;
+.pricing__card--recommended {
+	border: 3px solid var(--blackbg);
+}
+
+.pricing__title-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 2rem;
+	font-size: 1.8rem;
+}
+
+.pricing__title-box .far,
+.pricing__title-box .fas,
+.pricing__title-box .fab {
+	margin-right: 0.5rem;
 }
 
 .pricing__title {
-	font-size: 2.2rem;
+	font-size: 2.4rem;
+}
+
+.pricing__rate {
+	font-size: 2rem;
+	font-weight: 700;
 	margin-bottom: 2rem;
+}
+
+.pricing__dollar-sign {
+	color: var(--dark-color-text);
+}
+
+.pricing__desc {
+	align-self: stretch;
+}
+
+.pricing__desc-item {
+	margin-bottom: 1rem;
+	font-size: 1.4rem;
+}
+
+.pricing__desc-item .far,
+.pricing__desc-item .fas,
+.pricing__desc-item .fab {
+	font-weight: 700;
+	margin-right: 0.5rem;
+	color: var(--dark-color-text);
+}
+
+.pricing__card--recommended .pricing__desc .pricing__desc-item .far,
+.pricing__card--recommended .pricing__desc .pricing__desc-item .fas,
+.pricing__card--recommended .pricing__desc .pricing__desc-item .fab {
+	color: var(--black-text);
+}
+
+.pricing__card--recommended .pricing__desc .pricing__desc-item:first-of-type {
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 /* CONTACT */
