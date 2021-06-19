@@ -64,6 +64,10 @@
 	color: var(--dark-color-text);
 }
 
+.header__nav--mobile {
+	display: none;
+}
+
 .header__account-actions {
 	padding: 1rem 2rem;
 }
@@ -531,4 +535,19 @@
 .footer__copyright-link:hover,
 .footer__main-nav .footer__nav-link:hover {
 	color: var(--dark-color-text);
+}
+
+@media screen and (max-width: 400px) {
+	.header__nav--mobile {
+		display: block;
+		font-size: 2rem;
+	}
+
+	.header__nav {
+		display: none;
+	}
+
+	.header__account-actions {
+		display: none;
+	}
 }
