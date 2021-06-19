@@ -1,0 +1,62 @@
+@media screen and (max-width: 1200px) {
+	.header {
+		margin-bottom: 1rem;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
+	.header__nav--mobile {
+		display: block;
+		font-size: 2rem;
+	}
+
+	.header__nav {
+		display: none;
+	}
+
+	.header__account-actions {
+		display: none;
+	}
+
+	.hero {
+		grid-template-columns: 1fr;
+		padding: 0;
+		height: 40vh;
+	}
+
+	.hero__group {
+		align-self: flex-start;
+		height: 0;
+	}
+
+	.hero__title {
+		font-size: 3.5rem;
+		font-weight: 400;
+	}
+
+	.hero__subtitle {
+		font-size: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.hero__cta {
+		height: 0;
+	}
+
+	.hero__cta-input {
+		flex-grow: 0;
+	}
+
+	.hero__cta-btn {
+	}
+
+	.hero__img-container {
+		display: none;
+	}
+}
