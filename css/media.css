@@ -13,6 +13,7 @@
 @media screen and (max-width: 480px) {
 	.section-title {
 		font-size: 2rem;
+		text-align: center;
 	}
 
 	.header__nav--mobile {
@@ -94,6 +95,54 @@
 
 	.features__item-icon {
 		font-size: 3rem;
+	}
+
+	.pricing {
+		flex-direction: column;
+		width: 100%;
+		margin: 0 0 3rem;
+		padding: 0;
+	}
+
+	.pricing__text-group {
+		width: 100%;
+		margin-right: 0;
+		padding: 3rem;
+		box-shadow: none;
+	}
+
+	.pricing__text-group .section-title {
+		font-size: 2rem;
+		margin-bottom: 1rem;
+	}
+
+	.pricing__text-info {
+		font-size: 1.4rem;
+		text-align: center;
+	}
+
+	.pricing__list {
+		grid-template-columns: 1fr;
+	}
+
+	.pricing__list-text {
+		text-align: center;
+	}
+
+	.pricing__list-title {
+		font-size: 2rem;
+	}
+
+	.pricing__list-subtitle {
+		font-size: 1.6rem;
+	}
+
+	.pricing__card {
+		margin-right: 0;
+	}
+
+	.pricing__card--recommended {
+		grid-row: 2;
 	}
 
 	.contact {
