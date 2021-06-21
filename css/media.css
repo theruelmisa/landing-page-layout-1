@@ -11,6 +11,10 @@
 }
 
 @media screen and (max-width: 480px) {
+	.section-title {
+		font-size: 2rem;
+	}
+
 	.header__nav--mobile {
 		display: block;
 		font-size: 2rem;
@@ -27,7 +31,7 @@
 	.hero {
 		grid-template-columns: 1fr;
 		padding: 0;
-		height: 40vh;
+		height: 45vh;
 	}
 
 	.hero__group {
@@ -36,12 +40,12 @@
 	}
 
 	.hero__title {
-		font-size: 3.5rem;
+		font-size: 3rem;
 		font-weight: 400;
 	}
 
 	.hero__subtitle {
-		font-size: 2rem;
+		font-size: 1.8rem;
 		margin-bottom: 2rem;
 	}
 
@@ -49,14 +53,46 @@
 		height: 0;
 	}
 
+	.hero__cta > p {
+		font-size: 1.4rem;
+	}
+
+	.hero__cta-group {
+		flex-direction: column;
+	}
+
 	.hero__cta-input {
-		flex-grow: 0;
+		width: 100%;
+		margin-bottom: 2rem;
+		margin-right: 0;
 	}
 
 	.hero__cta-btn {
+		align-self: center;
+		padding: 1rem;
 	}
 
 	.hero__img-container {
 		display: none;
+	}
+
+	.features {
+		text-align: center;
+		padding: 5rem;
+		margin-bottom: 2rem;
+	}
+
+	.features__group {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.features__item:not(:last-of-type) {
+		margin-right: 0;
+	}
+
+	.features__item-icon {
+		font-size: 3rem;
 	}
 }
