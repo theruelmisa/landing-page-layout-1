@@ -96,6 +96,27 @@
 		font-size: 3rem;
 	}
 
+	.contact {
+		padding: 2rem 3rem;
+		grid-template-columns: 1fr;
+	}
+
+	.contact__img-container {
+		display: none;
+	}
+
+	.contact__form-group {
+		width: 100%;
+	}
+
+	.contact__btn {
+		width: 30%;
+	}
+
+	.contact__info-text {
+		font-size: 1.2rem;
+	}
+
 	.footer {
 		align-items: center;
 	}
