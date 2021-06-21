@@ -95,4 +95,28 @@
 	.features__item-icon {
 		font-size: 3rem;
 	}
+
+	.footer {
+		align-items: center;
+	}
+
+	.footer__main-nav {
+		font-size: 1.4rem;
+	}
+
+	.footer__social-nav {
+		margin-bottom: 2rem;
+	}
+
+	.footer__sub-group {
+		flex-direction: column;
+	}
+
+	.footer__copyright {
+		flex-direction: column;
+	}
+
+	.footer__copyright-link {
+		margin-bottom: 1.5rem;
+	}
 }
